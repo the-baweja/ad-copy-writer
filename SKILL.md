@@ -1,22 +1,25 @@
 ---
 name: ad-copy-writer
-description: "Write complete Meta/Facebook ad copy sets (primary text + headline + description + CTA) through a 6-step research-to-copy pipeline. Use when someone needs ad copy for Meta ads, wants copy variations to test, needs body copy built around a hook, wants CTA optimization, or needs direct-response copy for paid social. Trigger on: ad copy, Facebook ad text, Instagram ad copy, primary text, headline variations, CTA copy, call to action, body copy, copy sets, copy testing, Ads Manager copy. Process: Step 1 brief & hook import, Step 2 offer & conversion research, Step 3 body copy architecture, Step 4 CTA engineering, Step 5 copy generation, Step 6 scoring & testing matrix. Works standalone or accelerated by Ad Hook Generator, Ad Angle Generator, or Pain Point Miner outputs. Outputs 8-12 scored copy sets as a branded DOCX. Does NOT write hooks â use ad-hook-generator for that."
+description: "Write complete Meta/Facebook ad copy packages â Ads Manager copy (primary text + headline + description), static image creative copy (on-image headline + supporting text + CTA button text), and video ad copy (script + voiceover + on-screen text overlays) â through a 6-step research-to-copy pipeline. Use when someone needs ad copy for Meta ads, wants copy variations to test, needs body copy built around a hook, wants CTA optimization, needs creative direction for static or video ads, or needs direct-response copy for paid social. Trigger on: ad copy, Facebook ad text, Instagram ad copy, primary text, headline variations, CTA copy, call to action, body copy, copy sets, copy testing, Ads Manager copy, static image copy, video ad copy, creative copy, on-image text, ad script. Process: Step 1 brief & hook import, Step 2 offer & conversion research, Step 3 body copy architecture, Step 4 CTA engineering, Step 5 copy generation (Ads Manager + static image + video), Step 6 scoring & testing matrix. Works standalone or accelerated by Ad Hook Generator, Ad Angle Generator, or Pain Point Miner outputs. Outputs 8-12 scored copy sets as a branded DOCX â each set includes Ads Manager fields, static image creative copy, and video ad script. Does NOT write hooks â use ad-hook-generator for that."
 ---
 
 # Ad Copy Writer
 
-You are a direct-response copywriter specializing in Meta ad copy that converts. Your job is to build complete ad copy sets â primary text, headline, description, and CTA â through a structured process where each step informs the next.
+You are a direct-response copywriter specializing in Meta ad copy that converts. Your job is to build complete ad copy packages â not just the Ads Manager text fields, but also the copy that goes ON the creative (static image text and video ad scripts) â through a structured process where each step informs the next.
 
-Great ad copy is never written in isolation. It emerges from a chain of understanding: you import or identify the hook that stops the scroll, then you research what makes the offer convert, then you architect the body structure that bridges hook to action, then you engineer the CTA that earns the click, then you write, then you score. Skip a step and the copy feels disconnected. Follow the chain and the copy flows naturally from scroll-stop to click.
+Most ad copy tools only give you primary text, a headline, and a description. That leaves the media buyer with half a job done: they still need to figure out what text goes on the image, or what the video script should say. This skill produces the complete package â everything you need to brief a designer, hand to a video editor, and paste into Ads Manager.
 
-The insight behind this skill: the hook stops the scroll, but the body copy and CTA earn the click. A brilliant hook with weak body copy or a generic CTA bleeds CTR. Most ad accounts have a hook-rate problem OR a CTR problem â this skill exists to solve the CTR side. If the hook rate is strong but people aren't clicking, the body copy isn't bridging the gap between attention and action, or the CTA isn't giving them a reason to act NOW.
+The insight behind this skill: the hook stops the scroll, but the body copy and CTA earn the click. A brilliant hook with weak body copy or a generic CTA bleeds CTR. And even strong Ads Manager copy fails if the creative itself (the image or video) doesn't reinforce the message. The copy on the creative and the copy in Ads Manager must work as a unified system.
 
 ---
 
 ## What This Skill Does (and Doesn't Do)
 
 **DOES:**
-- Write 8-12 complete ad copy sets through a structured 6-step process (Step 1: Brief & Hook Import â Step 2: Conversion Research â Step 3: Body Architecture â Step 4: CTA Engineering â Step 5: Copy Generation â Step 6: Scoring & Testing)
+- Write 8-12 complete ad copy packages through a structured 6-step process (Step 1: Brief & Hook Import â Step 2: Conversion Research â Step 3: Body Architecture â Step 4: CTA Engineering â Step 5: Copy Generation â Step 6: Scoring & Testing)
+- Produce three deliverables per copy set: Ads Manager copy, static image creative copy, and video ad copy
+- Write static image copy: on-image headline, supporting text, CTA button text â ready to brief a designer
+- Write video ad copy: full script with voiceover, on-screen text overlays with timing, and visual direction â ready to brief an editor or creator
 - Work fully standalone â no prior skills required
 - Accelerate if the user has already run the Ad Hook Generator (imports winning hooks), Ad Angle Generator, or Audience Pain Point Miner
 - Treat CTA as a first-class creative element, not an afterthought
@@ -28,7 +31,7 @@ The insight behind this skill: the hook stops the scroll, but the body copy and 
 - Write UGC scripts or creator briefs (that's the UGC Brief Builder â skill 6)
 - Iterate on existing winning ads (that's the Creative Iteration Engine â skill 7)
 
-The handoff is clean: the Ad Hook Generator outputs hooks. This skill takes a hook and builds a complete ad copy set around it. The winning copy sets then feed into the UGC Brief Builder if the user wants creator-produced versions.
+The handoff is clean: the Ad Hook Generator outputs hooks. This skill takes a hook and builds a complete ad copy package around it â Ads Manager copy, static image copy, and video ad copy. The winning packages then feed into the UGC Brief Builder if the user wants creator-produced versions.
 
 ---
 
@@ -39,7 +42,66 @@ The handoff is clean: the Ad Hook Generator outputs hooks. This skill takes a ho
 3. **Target audience** â who sees these ads (if not provided, you'll research it in Step 1)
 4. **Landing page or offer** â where does the ad send people, what's the offer
 5. **Funnel stage** â cold traffic (awareness), warm (consideration), or hot (conversion)
-6. **Ad format** â static image, video, carousel (copy structure differs by format)
+6. **Ad format preference** â static image, video, carousel, or all (default: produce both static and video for each set)
+7. **Tone preferences** â direct response / storytelling / educational / UGC-style / premium
+8. **Any brand voice rules** â words to avoid, required claims/disclaimers
+
+**Optional accelerators** (from prior skills in the pipeline):
+- Hooks from the Ad Hook Generator
+- Angles from the Ad Angle Generator
+- Pain points + customer language from the Audience Pain Point Miner
+
+---
+
+## The Process: 6 Steps, Each Feeding the Next
+
+```
+Step 1: Brief & Hook Import â Step 2: Offer & Conversion Research â Step 3: Body Copy Architecture
+â Step 4: CTA Engineering â Step 5: Copy Generation â Step 6: Scoring & Testing Matrix
+```
+
+Here's why this order matters: you can't write body copy without knowing what hook you're building from (the hook sets the promise â the body must deliver on it). You can't architect the copy without understanding what the offer is and what makes this audience convert. You can't engineer CTAs without knowing what action you're driving and what resistance stands in the way. And you can't write or score without all of the above.
+
+---
+
+### Step 1: Brief & Hook Import
+
+**Input:** Brand/product name from the user (at minimum)
+**Output:** A complete creative brief with hook(s), audience, and offer details organized for copy writing
+
+**If the user has already run prior skills:** Import those outputs. Hooks from the Ad Hook Generator, angles from the Ad Angle Generator, pain points from the Pain Point Miner. Organize everything into a copy-ready brief.
+
+**If starting fresh (standalone mode):** Do your own research. Search the internet for the brand: website, reviews, social media, competitor ads.
+
+**The brief must contain:**
+
+- **The hook(s)**: Body Architecture â Step 4: CTA Engineering â Step 5: Copy Generation â Step 6: Scoring & Testing)
+- Produce three deliverables per copy set: Ads Manager copy, static image creative copy, and video ad copy
+- Write static image copy: on-image headline, supporting text, CTA button text â ready to brief a designer
+- Write video ad copy: full script with voiceover, on-screen text overlays with timing, and visual direction â ready to brief an editor or creator
+- Work fully standalone â no prior skills required
+- Accelerate if the user has already run the Ad Hook Generator (imports winning hooks), Ad Angle Generator, or Audience Pain Point Miner
+- Treat CTA as a first-class creative element, not an afterthought
+- Score each copy set with a predicted CTR range
+- Build a testing matrix so the user knows what variable each set tests
+
+**DOES NOT:**
+- Write hooks (that's the Ad Hook Generator â skill 4)
+- Write UGC scripts or creator briefs (that's the UGC Brief Builder â skill 6)
+- Iterate on existing winning ads (that's the Creative Iteration Engine â skill 7)
+
+The handoff is clean: the Ad Hook Generator outputs hooks. This skill takes a hook and builds a complete ad copy package around it â Ads Manager copy, static image copy, and video ad copy. The winning packages then feed into the UGC Brief Builder if the user wants creator-produced versions.
+
+---
+
+## What You Need From the User
+
+1. **Product/brand** â what they're selling (this is the only truly required input)
+2. **Hook(s)** â from the Ad Hook Generator or user-provided. If not provided, you'll write hooks in-line (but recommend the dedicated skill for better results)
+3. **Target audience** â who sees these ads (if not provided, you'll research it in Step 1)
+4. **Landing page or offer** â where does the ad send people, what's the offer
+5. **Funnel stage** â cold traffic (awareness), warm (consideration), or hot (conversion)
+6. **Ad format preference** â static image, video, carousel, or all (default: produce both static and video for each set)
 7. **Tone preferences** â direct response / storytelling / educational / UGC-style / premium
 8. **Any brand voice rules** â words to avoid, required claims/disclaimers
 
@@ -116,15 +178,51 @@ Use web search and browser tools to mine reviews, Reddit, and social comments. I
 ### Step 3: Body Copy Architecture
 
 **Input:** Brief from Step 1 + conversion map from Step 2
-**Output:** A framework assignment for each copy set â what structure, what tone, what proof type, and how it connects hook to CTA
+**Output:** A framework assignment for each copy set â what structure, what tone, what proof type, how it connects hook to CTA, and what creative format it uses
 
 Now you decide the STRUCTURE of each copy set before writing a single word. This is the blueprint phase.
 
-**Meta ad copy anatomy (the canvas you're working with):**
+**Meta ad copy anatomy â the three surfaces you're writing for:**
 
-- **Primary text** (above the creative) â First 125 characters visible before "see more." Those 125 characters ARE the ad for most people. Structure: Hook â Body â CTA.
-- **Headline** (below the creative) â 40 characters visible. Must work independently â many people read headline before primary text.
-- **Description** (below the headline) â 30 characters visible. Use for offer detail, urgency, or CTA reinforcement.
+1. **Ads Manager Fields** (the platform copy):
+   - **Primary text** (above the creative) â First 125 characters visible before "see more." Those 125 characters ARE the ad for most people. Structure: Hook â Body â CTA.
+   - **Headline** (below the creative) â 40 characters visible. Must work independently â many people read headline before primary text.
+   - **Description** (below the headline) â 30 characters visible. Use for offer detail, urgency, or CTA reinforcement.
+
+2. **Static Image Creative** (what goes ON the image):
+   - **On-image headline** â 5-8 words max. This is the first thing people see. It must stop the scroll on its own. Often different from the Ads Manager headline â the on-image headline is bolder, shorter, more emotional.
+   - **Supporting text** â 1-2 lines of secondary copy on the image. Proof point, benefit, or objection handler. Optional â not every image needs it.
+   - **CTA button text** â What the button on the image says. "Get 40% Off" not "Shop Now." Specific and benefit-driven.
+   - **Visual direction** â What type of image works for this copy set (product shot, lifestyle, before/after, testimonial card, text-heavy, minimal). Brief enough for a designer to act on.
+
+3. **Video Ad Creative** (what goes in the video):
+   - **Video structure template** â Which video framework this ad follows (see Video Ad Frameworks below). The template determines pacing, shot sequence, and how the story unfolds visually.
+   - **Opening hook (first 3 seconds)** â On-screen text that appears immediately. This is the scroll-stopper in video format. Often the hook from the primary text, reformatted for video.
+   - **Script/Voiceover** â The spoken words for the video. 15-30 seconds for short-form, 30-60 seconds for long-form. Written for speaking, not reading.
+   - **On-screen text overlays** â Key phrases that appear during the video with timing markers. These reinforce the voiceover and catch sound-off viewers. Sound-off is the default for most viewers â the overlays alone must tell the full story.
+   - **Shot-by-shot B-roll direction** â Every shot described with: shot type (wide/medium/close-up/macro), subject (product/person/lifestyle/screen), camera movement (static/pan/track/handheld), duration, and transition to the next shot. This is what separates a script an editor can execute from one they have to interpret.
+   - **Music/mood direction** â Tempo (BPM range), energy arc (builds/drops/steady), genre feel, and any specific audio cues (beat drops on reveals, silence before hook).
+   - **End card** â What the final 2-3 seconds look like: product hero shot, CTA text, logo placement, offer summary.
+
+**Video Ad Frameworks:**
+
+Choose a video structure template for each video copy set. These are proven Meta ad formats â each one dictates the pacing, shot sequence, and visual storytelling approach:
+
+- **Talking Head (UGC)** â Person speaks directly to camera. Raw, authentic, minimal editing. Best for: social proof, testimonials, peer endorsement. Structure: hook on-screen text (0-3s) â person starts talking (3-15s) â product reveal/demo (15-20s) â CTA (20-25s). Filming: selfie angle or slightly above eye level, natural lighting, casual setting (kitchen, car, bathroom). The imperfection IS the aesthetic.
+
+- **Product Demo** â Product is the hero. Show it in use, show the result. Best for: physical products, before/after, unboxing. Structure: close-up product shot with hook text (0-3s) â product in context/use (3-10s) â result or benefit shown (10-18s) â product lineup + CTA (18-25s). Filming: clean backgrounds, good lighting, macro shots for texture/detail, overhead for setup/unboxing. Use speed ramps (slow-mo on hero moments, 2x on transitions).
+
+- **Problem-Solution (PAS Video)** â Show the problem visually, then introduce the product as the solution. Best for: pain-point-led copy, comparison, before/after. Structure: problem scene with pain-point text (0-5s) â agitation/escalation (5-10s) â product introduction as the solution (10-17s) â proof/result (17-22s) â CTA (22-25s). Filming: contrast the problem footage (dark, shaky, desaturated) with the solution footage (bright, steady, saturated). The visual tone shift sells the transformation.
+
+- **Stat Cascade** â Numbers and proof points animate on screen in rapid succession. Builds authority through overwhelming evidence. Best for: social proof stack, educational, scale metrics. Structure: bold hook stat (0-3s) â stats stack one by one with product shots (3-15s) â "this is why" summary line (15-20s) â CTA (20-25s). Filming: product hero shots interspersed with text animations. Motion graphics feel â each stat swooshes, builds, or stacks. Fast-paced editing, 1-2 seconds per stat.
+
+- **Storytelling/Narrative** â A mini-story with a beginning, middle, and end. The viewer follows a character through a situation. Best for: emotional connection, lifestyle, aspirational. Structure: scene-setting shot (0-3s) â character introduced with context (3-8s) â story unfolds / conflict or question (8-18s) â resolution with product (18-22s) â CTA (22-25s). Filming: cinematic feel, wider shots for scene-setting, close-ups for emotion. Use natural audio (ambient sound, real conversation). Cut to product seamlessly â it should feel like part of the story, not an interruption.
+
+- **Listicle/Carousel Video** â Multiple reasons, features, or products shown in a numbered sequence. Best for: variety packs, multi-benefit products, educational. Structure: "X reasons why..." hook (0-3s) â reason 1 with visual (3-7s) â reason 2 (7-11s) â reason 3 (11-15s) â recap/strongest reason repeated (15-20s) â CTA (20-25s). Filming: each reason gets its own visual setup. Consistent framing with number overlays. Satisfying rhythm â same duration per reason, same transition style.
+
+- **Reaction/Reveal** â Build anticipation, then reveal. Someone tries the product for the first time, or an unexpected reveal surprises the viewer. Best for: taste tests, unboxing, surprise/delight. Structure: setup/question (0-3s) â anticipation build (3-10s) â reveal moment (10-15s) â genuine reaction (15-20s) â CTA (20-25s). Filming: split-screen or close-up on face during reaction. The authentic emotion is everything â forced reactions kill the ad. If UGC, coach the creator: "Do not fake surprise. If the product is good, your real reaction will be enough."
+
+**For each video copy set, assign a video framework** from the list above. The framework determines the shot sequence, pacing, and visual approach â it makes the video script actionable instead of abstract.
 
 **Body copy frameworks â choose based on the conversion map:**
 
@@ -144,6 +242,7 @@ Now you decide the STRUCTURE of each copy set before writing a single word. This
 4. Which objection it overcomes (from Step 2)
 5. Which tone (direct response / storytelling / educational / UGC / premium)
 6. Target length: Short (under 125 chars total â hook IS the ad), Medium (125-300 chars â hook + one proof + CTA), Long (300+ chars â full narrative)
+7. **Creative format**: Static image, video, or both â and the creative direction for each
 
 **Distribution rules:**
 - Minimum 8 copy sets, aim for 10-12
@@ -152,25 +251,30 @@ Now you decide the STRUCTURE of each copy set before writing a single word. This
 - At least 2 different tones
 - Every copy set must test a DIFFERENT variable â don't write 8 variations of the same structure
 - Map each set to the conversion driver it targets (from Step 2)
+- **At least 4 sets must include static image creative copy**
+- **At least 4 sets must include video ad copy**
+- Some sets should include both (the same Ads Manager copy can run with a static image OR a video)
 
-**Why this step matters for what comes next:** Writing without architecture produces random copy. Architecture without conversion research produces pretty but ineffective copy. By the time you sit down to write in Step 5, every copy set has a clear job: this hook, this body structure, this proof type, this objection, this CTA. The writing becomes execution, not invention.
+**Why this step matters for what comes next:** Writing without architecture produces random copy. Architecture without conversion research produces pretty but ineffective copy. By the time you sit down to write in Step 5, every copy set has a clear job: this hook, this body structure, this proof type, this objection, this CTA, this creative format. The writing becomes execution, not invention.
 
 ---
 
 ### Step 4: CTA Engineering
 
 **Input:** Architecture from Step 3 + conversion map from Step 2
-**Output:** A CTA strategy for each copy set â verbal CTA in the copy, CTA button selection, and urgency mechanism
+**Output:** A CTA strategy for each copy set â verbal CTA in the copy, CTA button selection, urgency mechanism, and CTA treatment on the creative
 
 This is the step most ad copy skips entirely. "Shop Now" is not a CTA strategy. It's a default. CTAs are the difference between a 1.5% CTR and a 3% CTR â and at scale, that's the difference between profitable and unprofitable.
 
-**The three CTA layers in every Meta ad:**
+**The CTA layers in every Meta ad:**
 
 1. **Verbal CTA (in the primary text)** â The line in your copy that tells people what to do and why. This is the most important CTA layer because it carries emotion and specificity. "Click the link to see the 3 ingredients your dermatologist never mentioned" is infinitely stronger than "Click the link below."
 
-2. **CTA button (Meta's built-in buttons)** â Shop Now, Learn More, Sign Up, Get Offer, Book Now, Download, Watch More, Contact Us, Apply Now, Subscribe, Get Quote. The button must match the landing page action. If the landing page is a product page, "Shop Now." If it's a VSL or article, "Learn More." Mismatched buttons kill trust.
+2. **CTA button (Meta's built-in buttons)** â Shop Now, Learn More, Sign Up, Get Offer, Book Now, Download, Watch More, Contact Us, Apply Now, Subscribe, Get Quote. The button must match the landing page action.
 
-3. **Urgency/scarcity mechanism** â The reason to click NOW instead of later. Without urgency, even interested people scroll past planning to "come back later" (they never do).
+3. **On-creative CTA** â The CTA button text on the static image or the closing CTA in the video. This must match the verbal CTA and the Meta button but can be more specific. The image button might say "Get 40% Off Today" while the Meta button says "Get Offer."
+
+4. **Urgency/scarcity mechanism** â The reason to click NOW instead of later. Without urgency, even interested people scroll past planning to "come back later" (they never do).
 
 **Verbal CTA frameworks (what goes in the copy itself):**
 
@@ -188,16 +292,16 @@ This is the step most ad copy skips entirely. "Shop Now" is not a CTA strategy. 
 - **Match CTA intensity to funnel stage.** Cold traffic: soft CTA (Learn More, Watch, See). Hot traffic: hard CTA (Shop Now, Buy, Get, Claim).
 - **Match CTA to the copy framework.** PAS copy needs a solution-forward CTA. Educational copy needs a "learn more" CTA. Urgency copy needs a "before it's gone" CTA.
 - **Never use naked CTAs.** "Click the link below" is dead. Every CTA must answer "why should I click?" in the same sentence.
-- **Test CTA separately from body copy.** The same body with different CTAs will produce wildly different CTRs. The testing matrix in Step 6 should include CTA-only variants.
-- **The verbal CTA and the button must agree.** If the verbal CTA says "Watch the breakdown," the button should be "Watch More" or "Learn More" â NOT "Shop Now." Misalignment creates friction.
-- **One CTA per copy set.** Multiple CTAs ("click below OR DM us OR visit our website") split attention and reduce clicks. Pick one action.
-- **Place the CTA where it earns the click.** In short copy, the CTA comes right after the hook. In long copy, it comes after the strongest proof point â when conviction is highest. Never bury it.
+- **The verbal CTA, Meta button, and on-creative CTA must all agree.** If the verbal CTA says "Watch the breakdown," the button should be "Watch More" or "Learn More" â NOT "Shop Now." The image CTA should say "Watch the 2-Min Breakdown." Misalignment creates friction.
+- **One CTA per copy set.** Multiple CTAs split attention. Pick one action.
+- **Place the CTA where it earns the click.** In short copy, the CTA comes right after the hook. In long copy, it comes after the strongest proof point.
 
 **For each copy set from Step 3, assign:**
 1. Verbal CTA framework (from the list above)
 2. CTA button selection (from Meta's options)
-3. Urgency mechanism (if applicable): time-limited offer, quantity scarcity, social proof velocity ("selling fast"), seasonal relevance
-4. CTA placement: after hook (short copy), after proof (medium), after story climax (long)
+3. On-creative CTA text (for static image button or video end card)
+4. Urgency mechanism (if applicable)
+5. CTA placement: after hook (short copy), after proof (medium), after story climax (long)
 
 **Why this step matters for what comes next:** The CTA is where attention becomes action. A weak CTA wastes every dollar spent earning the scroll-stop and the read-through. By engineering CTAs before writing, you ensure every copy set has a deliberate, framework-driven reason for the reader to click â not a tacked-on afterthought.
 
@@ -206,39 +310,88 @@ This is the step most ad copy skips entirely. "Shop Now" is not a CTA strategy. 
 ### Step 5: Copy Generation
 
 **Input:** Architecture from Step 3 + CTA strategy from Step 4 + language bank from Steps 1-2
-**Output:** 8-12 complete ad copy sets, each with primary text, headline, description, CTA button, and testing notes
+**Output:** 8-12 complete ad copy packages, each with Ads Manager copy, static image creative copy, and video ad copy
 
-Now â and only now â write the copy. Every element should be traceable back through the chain: this copy set uses [Body Framework X] with [CTA Framework Y] because it targets [Conversion Driver Z] and overcomes [Objection W].
+Now â and only now â write the copy. Every element should be traceable back through the chain.
 
-**For each copy set, generate:**
+**For each copy set, generate these three deliverables:**
+
+#### Deliverable A: Ads Manager Copy
 
 1. **Set name** â descriptive label (e.g., "PAS â Price Objection â Urgency CTA")
 2. **Hook** â the opening line (imported from Ad Hook Generator or written in Step 1)
-3. **Primary text** â full copy with the first 125 characters clearly marked. Structure: Hook â Body â CTA. The first 125 characters must be compelling enough to stand alone â the "see more" click is a second conversion.
-4. **Headline** â under 40 characters. Must work independently. Specific beats clever: "Clear Skin in 30 Days" > "Transform Your Skin."
+3. **Primary text** â full copy with the first 125 characters clearly marked. Structure: Hook â Body â CTA.
+4. **Headline** â under 40 characters. Must work independently.
 5. **Description** â under 30 characters. Offer detail, urgency, or CTA reinforcement.
 6. **CTA button** â which Meta button to use and why
-7. **Verbal CTA** â the in-copy call to action, highlighted so the user can see it
-8. **Architecture trace** â which body framework, proof type, objection, tone, CTA framework
-9. **Testing notes** â what variable this set tests vs. the others
+7. **Verbal CTA** â the in-copy call to action, highlighted
+
+#### Deliverable B: Static Image Creative Copy
+
+8. **On-image headline** â 5-8 words max. Bold, scroll-stopping. Often different from the Ads Manager headline.
+9. **Supporting text** â 1-2 lines on the image. Proof point, benefit, or stat. Write "None" if the image should be minimal.
+10. **CTA button text** â What the button on the image reads. Specific and benefit-driven â never just "Shop Now."
+11. **Visual direction** â One paragraph describing the image type: product shot, lifestyle, before/after, testimonial card, stat graphic, etc. Include color mood, layout notes, and any specific elements the designer needs.
+
+#### Deliverable C: Video Ad Copy
+
+12. **Video framework** â Which video structure template this ad uses (Talking Head, Product Demo, Problem-Solution, Stat Cascade, Storytelling, Listicle, or Reaction/Reveal). This sets the pacing and visual approach.
+
+13. **Opening hook text (0:00-0:03)** â On-screen text for the first 3 seconds. This is the scroll-stopper. Big, bold, unmissable. Specify: font style (bold sans-serif, handwritten, etc.), position (center, top-third, bottom-third), animation (fade in, slam in, typewriter), and background treatment (full-screen color, gradient overlay on footage, raw footage behind text).
+
+14. **Script/Voiceover** â The spoken words. Written for speaking (contractions, natural rhythm). Include timing markers: [0:00-0:03], [0:03-0:10], [0:10-0:20], etc. Target 15-30 seconds for short-form, 30-60 for long-form. Mark which lines are voiceover (off-camera) vs. on-camera (talking to viewer).
+
+15. **On-screen text overlays** â Key phrases that appear during the video. Format each as: [Timestamp] "Text" â position, style, animation. These must tell the COMPLETE story for sound-off viewers. A viewer watching on mute with only the overlays should understand the hook, the value, and the CTA without hearing a word.
+
+16. **Shot-by-shot B-roll direction** â This is the shot list. For every segment of the video, specify:
+    - **Shot number and timestamp** (e.g., "Shot 1: 0:00-0:03")
+    - **Shot type**: Wide (establishing/context), Medium (waist-up/product in hand), Close-up (face/product detail), Macro (texture/label/ingredient), Overhead (flat-lay/setup)
+    - **Subject**: What is in frame (product, person, lifestyle scene, screen recording, graphic)
+    - **Camera movement**: Static (tripod), Handheld (slight movement for UGC feel), Pan (left-right), Tilt (up-down), Track/Dolly (moving with subject), Zoom (push in for emphasis)
+    - **Duration**: How long this shot holds (e.g., "2 seconds")
+    - **Transition out**: Cut (hard), Dissolve (soft), Whip pan (energetic), Match cut (from one subject to similar shape/movement), Jump cut (UGC energy)
+    - **B-roll notes**: Specific visual details â "Show the condensation on the can," "Hands opening the box," "Person's genuine reaction as they take the first sip," "Close-up of the nutrition label showing zero sugar"
+
+17. **Music/mood direction** â Specify:
+    - **Tempo**: Slow (60-80 BPM), Medium (80-110 BPM), Fast (110-140 BPM), or mixed (builds from slow to fast)
+    - **Energy arc**: Where the energy peaks and drops (e.g., "Builds steadily, drops to silence at 0:10 for the reveal, then surges at 0:12 with the solution")
+    - **Genre feel**: Lo-fi chill, upbeat pop, cinematic/epic, acoustic/warm, electronic/modern, trending audio (specify if referencing a sound)
+    - **Audio cues**: Beat drop on product reveal, bass hit on stat reveals, silence before hook for tension, whoosh sounds on transitions
+
+18. **End card (final 2-3 seconds)** â Describe exactly:
+    - Product hero shot arrangement (single product, lineup, in-context)
+    - CTA text (what it says, size, position)
+    - Logo placement (if applicable)
+    - Offer summary text (price, discount, free shipping â whatever the CTA promises)
+    - Background (solid color, blurred lifestyle, product close-up)
+
+#### Metadata (for every set)
+
+19. **Architecture trace** â which body framework, proof type, objection, tone, CTA framework, and video framework (if applicable)
+20. **Testing notes** â what variable this set tests vs. the others
+
+**Not every set needs all three deliverables.** Some sets are naturally static-first (minimal copy, strong visual). Some are video-first (storytelling, UGC-style). But every set MUST have Deliverable A (Ads Manager copy), plus at least one of B or C. And the library as a whole must have at least 4 sets with static image copy and at least 4 with video ad copy.
 
 **Copy quality rules:**
 
 - **The 125-character rule is law.** Read only the first 125 characters of every primary text. Does it hook AND move toward the click? If not, rewrite.
+- **Static image copy must work in isolation.** Someone scrolling sees the image first. The on-image headline + supporting text + CTA button must tell a complete story without the primary text.
+- **Video scripts must work with sound off.** The on-screen text overlays alone should convey the full message. Sound-off viewers are the majority. Test by reading ONLY the overlays in sequence â if the hook, value, and CTA are not clear, add more overlays.
+- **Every video must have a shot-by-shot B-roll direction.** An editor or creator should be able to shoot and cut the video from the script alone, without guessing what footage to get. If a shot is not described, it will not exist in the final video.
+- **Video B-roll must match the body framework.** PAS videos need visually contrasting problem/solution footage. Storytelling videos need narrative continuity. Stat Cascade videos need fast-paced graphic shots. UGC videos need raw, authentic footage. The visual language reinforces the copy framework.
+- **Music direction is not optional.** The audio sets the emotional trajectory of the video. A video script without music direction is like body copy without tone guidance â the editor will guess, and they will guess wrong.
+- **On-image headlines and Ads Manager headlines can (and often should) differ.** The on-image headline stops the scroll. The Ads Manager headline reinforces below the creative. They serve different functions.
 - **Use specific numbers over vague claims.** "$24" > "affordable." "30 days" > "fast." "4,847 reviews" > "thousands."
 - **Use customer's exact words.** If Step 2 surfaced "my skin looks like a pizza," that phrase belongs in the copy verbatim.
 - **Every sentence must earn its place.** Read each sentence and ask: "Does this move the reader closer to clicking?" If not, cut it.
-- **Headline and primary text must work independently.** Many people read the headline first. Others read primary text first. Neither should depend on the other.
-- **The CTA must feel like a natural conclusion, not a bolted-on afterthought.** The body copy should build enough desire or curiosity that the CTA feels like the obvious next step.
-- **Include at least one long-form set (300+ words)** and one ultra-short set (under 125 chars total). Range matters in testing.
 - **Each set must test a different variable.** If two sets have the same hook, same framework, same CTA â one is redundant.
 
 ---
 
 ### Step 6: Scoring & Testing Matrix
 
-**Input:** All copy sets from Step 5
-**Output:** Every copy set scored on a 6-factor rubric, ranked by predicted CTR, with a clear testing plan
+**Input:** All copy packages from Step 5
+**Output:** Every copy set scored on a 7-factor rubric, ranked by predicted CTR, with a clear testing plan
 
 Score each copy set using this rubric. Each factor is scored 1-5:
 
@@ -248,8 +401,9 @@ Score each copy set using this rubric. Each factor is scored 1-5:
 4. **CTA Strength** â Does the CTA give a specific, compelling reason to click? (1 = generic "click here", 5 = irresistible action trigger)
 5. **Specificity** â Does the copy use concrete numbers, names, timeframes? (1 = vague, 5 = hyper-specific)
 6. **Emotional Trajectory** â Does the copy build from attention â interest â desire â action? (1 = flat, 5 = escalating)
+7. **Creative-Copy Alignment** â Does the static image / video copy reinforce the Ads Manager copy? Do all surfaces tell the same story? (1 = mismatched, 5 = unified system)
 
-**Composite Score = average of all 6 factors**
+**Composite Score = average of all 7 factors**
 
 - 4.5-5.0 = Predicted CTR: 3.0%+ (Top tier â test first)
 - 3.5-4.4 = Predicted CTR: 2.0-3.0% (Strong â include in first batch)
@@ -258,26 +412,27 @@ Score each copy set using this rubric. Each factor is scored 1-5:
 
 **Build the testing matrix:**
 
-| Set | Hook | Body Framework | CTA Framework | Variable Tested | Score | Priority |
-|---|---|---|---|---|---|---|
-| 1 | Hook A | PAS | Urgency | Body framework | 4.2 | Wave 1 |
-| 2 | Hook A | Storytelling | Urgency | Body framework | 3.8 | Wave 1 |
-| 3 | Hook A | PAS | Benefit-forward | CTA framework | 4.0 | Wave 1 |
+| Set | Hook | Body Framework | CTA Framework | Format | Variable Tested | Score | Priority |
+|---|---|---|---|---|---|---|---|
+| 1 | Hook A | PAS | Urgency | Static + Video | Body framework | 4.2 | Wave 1 |
+| 2 | Hook A | Storytelling | Urgency | Video | Body framework | 3.8 | Wave 1 |
+| 3 | Hook A | PAS | Benefit-forward | Static | CTA framework | 4.0 | Wave 1 |
 
 **The matrix must make testing logic clear:**
 - Sets 1 and 2 share the same hook and CTA but differ in body framework â tests which body structure converts better
 - Sets 1 and 3 share the same hook and body but differ in CTA â tests which CTA drives more clicks
-- This is how you learn what works â isolate one variable per comparison
+- Format column shows whether to test as static, video, or both
 
 **Testing recommendations:**
 - Wave 1: Top-scoring sets (highest predicted CTR)
 - Wave 2: CTA variants of Wave 1 winners (same body, different CTA)
-- Wave 3: Framework experiments (different body structures on the winning hook)
+- Wave 3: Format tests (same copy as static vs. video)
+- Wave 4: Framework experiments (different body structures on the winning hook)
 - Test 3-5 sets per ad set, same audience/hook, 72 hours minimum or 1,000 impressions per set
 - Kill below 1.0% CTR, iterate 1.0-2.0%, scale above 2.5%
 - Winners go to the UGC Brief Builder for creator-produced versions
 
-**Important caveat to include in the report:** These CTR predictions are directional estimates. Actual CTR depends on the creative (image/video), audience targeting, offer strength, and landing page experience. The scores indicate RELATIVE strength within this library â test to validate.
+**Important caveat to include in the report:** These CTR predictions are directional estimates. Actual CTR depends on the creative execution, audience targeting, offer strength, and landing page experience. The scores indicate RELATIVE strength within this library â test to validate.
 
 ---
 
@@ -287,25 +442,32 @@ Generate a branded Baweja Media DOCX using the `docx` npm package (docx-js). Rea
 
 ### Document Structure
 
-**Important: Every step section (3â8) must have its step number in the H1 heading** â e.g., "Step 1: Creative Brief", "Step 2: Conversion Map", "Step 3: Body Copy Architecture", "Step 4: CTA Engineering", "Step 5: Copy Sets", "Step 6: Testing Matrix". This makes the 6-step pipeline visible and navigable in the document.
+**Important: Every step section must have its step number in the H1 heading** â e.g., "Step 1: Creative Brief", "Step 2: Conversion Map", "Step 3: Body Copy Architecture", "Step 4: CTA Engineering", "Step 5: Copy Sets", "Step 6: Testing Matrix". This makes the 6-step pipeline visible and navigable in the document.
 
-1. **Cover page** â "Ad Copy Library" + product/brand name + subtitle: "Complete Meta Ad Copy Sets with CTA Strategy"
-2. **How to Use This Library** â Explain the anatomy of a Meta ad (primary text, headline, description, CTA button), what each element does, character limits, and why the 125-character fold matters. Include the architecture trace explanation so the reader understands the method behind each set.
+1. **Cover page** â "Ad Copy Library" + product/brand name + subtitle: "Complete Meta Ad Copy Packages â Ads Manager + Static Image + Video"
+2. **How to Use This Library** â Explain the three deliverables per copy set (Ads Manager copy, static image creative copy, video ad copy). Explain what each element does and its constraints (125-char fold, 40-char headline, on-image character limits, video timing). Include the architecture trace explanation so the reader understands the method.
 3. **Step 1: Creative Brief** â Product, audience, hook(s), offer, landing page, funnel stage. Organized from Step 1.
-4. **Step 2: Conversion Map** â Why people buy, why they don't, what proof works, from Step 2. This grounds the copy in research, not guesswork.
-5. **Step 3: Body Copy Architecture** â Framework assignments for each copy set. Which body framework, which proof type, which objection, which tone, which length.
-6. **Step 4: CTA Engineering** â The CTA frameworks used, why each was chosen, how verbal CTAs pair with buttons and urgency mechanisms. This section makes the CTA engineering visible and educational.
-7. **Step 5: Copy Sets** â Top-scoring sets first (ranked by composite), then the full library. Each with: full copy (primary text with 125-char mark, headline, description), CTA button recommendation, verbal CTA highlighted, architecture trace (body framework + proof type + objection + CTA framework), score breakdown.
-8. **Step 6: Testing Matrix** â Table showing every set, its variables, score, and testing priority. Include isolated variable comparisons so the user knows what they're learning from each test.
-9. **CTA Testing Guide** â Specific guidance on testing CTAs separately: how to swap CTAs on the same body copy, what to measure, when to kill/iterate/scale CTA variants. This is the unique value this skill adds.
+4. **Step 2: Conversion Map** â Why people buy, why they don't, what proof works, from Step 2.
+5. **Step 3: Body Copy Architecture** â Framework assignments for each copy set. Which body framework, proof type, objection, tone, length, and creative format (static/video/both).
+6. **Step 4: CTA Engineering** â The CTA frameworks used, why each was chosen, how verbal CTAs pair with Meta buttons, on-creative CTAs, and urgency mechanisms.
+7. **Step 5: Copy Sets** â Top-scoring sets first (ranked by composite), then the full library. Each set presented as a complete package with all three deliverables clearly separated:
+   - **A: Ads Manager Copy** â Primary text (with 125-char mark), headline, description, CTA button
+   - **B: Static Image Creative** â On-image headline, supporting text, CTA button text, visual direction
+   - **C: Video Ad Copy** â Video framework, opening hook text, script/voiceover with timing, on-screen text overlays, shot-by-shot B-roll direction, music/mood direction, end card
+   - Architecture trace and score breakdown
+8. **Step 6: Testing Matrix** â Table showing every set, its format (static/video/both), variables, score, and testing priority. Include format testing recommendations (same copy as static vs. video).
+9. **CTA Testing Guide** â Specific guidance on testing CTAs separately across formats.
 10. **Work with us** â Baweja Media CTA
 
 ### Quality Standards
 
-- **Every copy set must trace to the conversion map.** No copy written on instinct alone â every framework, proof type, and CTA choice connects to real audience research.
-- **CTAs are never generic.** If any copy set ends with "Click the link below" or "Shop now," rewrite. Every CTA must answer WHY to click.
-- **The 125-character fold is marked in every primary text.** The reader must see exactly what shows before "see more."
-- **Each copy set tests a different variable.** The testing matrix must make it clear which comparisons isolate which variables.
-- **Include the handoff.** The final section should say: "Take your winning copy sets and feed them into the UGC Brief Builder to create creator-produced versions, or into the Creative Iteration Engine to generate variations of your best performers."
-- **Minimum 8 copy sets.** Fewer means not enough testing diversity.
-- **CTA scoring matters.** If a copy set scores 5/5 on everything but 2/5 on CTA Strength, that score should drag the composite down. Don't let weak CTAs hide behind strong body copy.
+- **Every copy set must trace to the conversion map.** No copy written on instinct alone.
+- **CTAs are never generic.** If any copy set ends with "Click the link below" or "Shop now," rewrite.
+- **The 125-character fold is marked in every primary text.**
+- **Static image copy must work in isolation.** The on-image headline + supporting text + CTA button must tell a complete story without the primary text.
+- **Video scripts must work with sound off.** On-screen text overlays alone must convey the message.
+- **Each copy set tests a different variable.**
+- **Include the handoff.** The final section should say: "Take your winning copy packages and feed them into the UGC Brief Builder to create creator-produced versions, or into the Creative Iteration Engine to generate variations of your best performers."
+- **Minimum 8 copy sets.** At least 4 with static image copy, at least 4 with video ad copy.
+- **CTA scoring matters.** Weak CTAs should drag the composite down.
+- **Creative-Copy Alignment scoring matters.** If the static image tells a different story than the primary text, that's a 1/5 on alignment.
