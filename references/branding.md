@@ -1,19 +1,32 @@
-# Baweja Media Branding Reference for DOCX Output
+# Branding Reference for DOCX Output
+
+> **Customization note:** This file ships with Baweja Media defaults. To rebrand for your own agency or business, replace the color values, company name, tagline, and CTA URL below. The skill reads this file at generation time — your branding flows into every DOCX automatically.
 
 All skills in this suite output branded DOCX files using the `docx` npm package (docx-js). Use this reference for consistent branding across all deliverables.
 
 ## Brand Colors
 
 ```javascript
-const BM_PRIMARY = "23B323";   // Primary green
-const BM_TEAL = "24B27C";      // Teal-green (links, accents)
-const BM_OFFWHITE = "E7F1E6";  // Light green background (callout boxes)
-const BM_DARK_GREEN = "1B5E20"; // Dark green (table headers)
-const BM_BLACK = "1A1A1A";     // Body text
-const BM_GRAY = "6B7280";      // Secondary text
+// --- CUSTOMIZE THESE VALUES FOR YOUR BRAND ---
+const BM_PRIMARY = "23B323";    // Primary accent (headings, labels, dividers, CTA buttons)
+const BM_TEAL = "24B27C";       // Secondary accent (links, hover states)
+const BM_OFFWHITE = "E7F1E6";   // Light background (callout boxes, highlights)
+const BM_DARK_GREEN = "1B5E20"; // Dark accent (table headers)
+const BM_BLACK = "1A1A1A";      // Body text
+const BM_GRAY = "6B7280";       // Secondary text
 const BM_LIGHT_GRAY = "9CA3AF"; // Tertiary text, dividers
 const WHITE = "FFFFFF";
-const CW = 9360;                // Content width in DXA (twips)
+const CW = 9360;                 // Content width in DXA (twips)
+```
+
+## Brand Identity
+
+```javascript
+// --- CUSTOMIZE THESE VALUES FOR YOUR BRAND ---
+const BRAND_NAME = "BAWEJA MEDIA";           // Appears in headers, cover pages, closing pages
+const BRAND_WEBSITE = "bawejamedia.com";     // Appears in footer and closing page
+const BRAND_TAGLINE = "Clear thinking. Disciplined systems. Growth decisions grounded in signal.";
+const CTA_URL = "https://webinar.sannidhyabaweja.com/vsl-lp-ind"; // CTA button destination
 ```
 
 ## Typography
@@ -32,21 +45,21 @@ Every output DOCX must include:
 
 ### Header
 ```
-BAWEJA MEDIA    [tab]    [Document Title]
+{{BRAND_NAME}}    [tab]    [Document Title]
 ```
-- "BAWEJA MEDIA" in BM_PRIMARY, bold, 17 half-points
+- Brand name in BM_PRIMARY, bold, 17 half-points
 - Document title in BM_GRAY, 17 half-points
 - Bottom border: thin line in BM_LIGHT_GRAY
 
 ### Footer
 ```
-Â© Baweja Media Â· bawejamedia.com    [tab]    Page [number]
+(c) {{BRAND_NAME}} · {{BRAND_WEBSITE}}    [tab]    Page [number]
 ```
 - All text in BM_LIGHT_GRAY, 15 half-points
 
 ### Cover Page
 1. Spacer (600 twips)
-2. "BAWEJA MEDIA" label (BM_PRIMARY, bold, 26 half-points)
+2. Brand name label (BM_PRIMARY, bold, 26 half-points)
 3. Green divider (6px border in BM_PRIMARY)
 4. Spacer (200 twips)
 5. Document title (bold, 56 half-points, BM_BLACK)
@@ -56,13 +69,12 @@ BAWEJA MEDIA    [tab]    [Document Title]
 
 ### Closing Page
 1. Thin divider (BM_LIGHT_GRAY)
-2. "BAWEJA MEDIA" (bold, 24 half-points, BM_PRIMARY)
-3. Tagline: "Clear thinking. Disciplined systems. Growth decisions grounded in signal." (italic)
-4. Link: bawejamedia.com (BM_TEAL)
+2. Brand name (bold, 24 half-points, BM_PRIMARY)
+3. Tagline (italic) — uses `BRAND_TAGLINE` from Brand Identity above
+4. Link to `BRAND_WEBSITE` (BM_TEAL)
 
 ### CTA Button (when applicable)
-Green button (BM_PRIMARY background) with white bold text, centered, links to:
-`https://webinar.sannidhyabaweja.com/vsl-lp-ind`
+Green button (BM_PRIMARY background) with white bold text, centered, links to `CTA_URL`.
 
 ## Component Library (docx-js Helper Functions)
 
@@ -101,6 +113,6 @@ function ctaButton(text, url) {
 ## Design Principles
 
 - **Whitespace = confidence.** Generous spacing between sections. Never crowd content.
-- **Green for structure, not decoration.** Use BM_PRIMARY for labels, dividers, table headers, and CTAs. Not for backgrounds or decorative elements.
+- **Color for structure, not decoration.** Use BM_PRIMARY for labels, dividers, table headers, and CTAs. Not for backgrounds or decorative elements.
 - **Premium restraint.** No rounded corners, no badges, no colored cover blocks. Clean pages, minimal elements.
 - **Every page should breathe.** If content feels dense, add a page break.
