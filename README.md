@@ -17,7 +17,7 @@ git clone https://github.com/the-baweja/ad-copy-writer.git ~/.claude/skills/ad-c
 **Manual:**
 Clone into any directory your Claude skills configuration points to.
 
-## What It Does
+## What it does
 
 The skill follows a 6-step pipeline where each step feeds the next:
 
@@ -50,7 +50,7 @@ Edit `references/branding.md` to replace the default brand colors, typography, a
 
 **Output:** 10 scored copy sets across 8 body frameworks and 8 CTA frameworks. Top set scored 4.5/5.0. Includes isolated variable comparisons: Sets 1 vs 7 test PAS vs Comparison on the same hook. Sets 4 vs 9 test Challenge vs Risk-reversal CTA on UGC-style copy. Full testing matrix with Wave 1/2/3 priorities.
 
-## Who This Is For
+## Who this is for
 
 Media buyers, creative strategists, brand owners, and performance marketers who want complete ad copy packages — not just headlines, but static image creative and video scripts — built through a systematic pipeline.
 
