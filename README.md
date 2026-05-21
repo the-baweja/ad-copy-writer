@@ -52,23 +52,9 @@ Edit `references/branding.md` to replace the default brand colors, typography, a
 
 ## Who This Is For
 
+Media buyers, creative strategists, brand owners, and performance marketers who want complete ad copy packages — not just headlines, but static image creative and video scripts — built through a systematic pipeline.
+
 This is skill 5 of 10 in the **AI Skills for Media Buyers** series by [Baweja Media](https://bawejamedia.com).
-
-| Phase | Skill | What It Does |
-|-------|-------|-------------|
-| PLAN | 1. [Competitor Ad Spy](https://github.com/the-baweja/competitor-ad-spy) | Pull and analyze competitor Meta ads |
-| PLAN | 2. [Ad Angle Generator](https://github.com/the-baweja/ad-angle-generator) | Generate 20+ research-backed ad angles |
-| PLAN | 3. [Audience Pain Point Miner](https://github.com/the-baweja/audience-pain-point-miner) | Mine real customer language for ad copy |
-| MAKE | 4. [Ad Hook Generator](https://github.com/the-baweja/ad-hook-generator) | Write scored scroll-stopping hooks |
-| MAKE | **5. Ad Copy Writer** | **Write complete ad copy sets with engineered CTAs** |
-| MAKE | 6. UGC Brief Builder | Create production-ready creator briefs |
-| MAKE | 7. Creative Iteration Engine | Generate variations of winning ads |
-| MEASURE | 8. Creative Performance Audit | Analyze ad creative performance data |
-| MEASURE | 9. Ad Fatigue Detector | Detect creative fatigue and recommend refreshes |
-| MEASURE | 10. Landing Page Audit | Audit post-click conversion experience |
-
----
-
 ## Want Baweja Media to audit your ad account and explore opportunities to work together?
 
 [→ Book a free strategy call](https://webinar.sannidhyabaweja.com/vsl-lp-ind)
