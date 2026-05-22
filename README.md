@@ -57,7 +57,7 @@ Media buyers, creative strategists, brand owners, and performance marketers who 
 This is skill 5 of 10 in the **AI Skills for Media Buyers** series by [Baweja Media](https://bawejamedia.com).
 ## Want Baweja Media to audit your ad account and explore opportunities to work together?
 
-[→ Book a free strategy call](https://webinar.sannidhyabaweja.com/vsl-lp-ind)
+[→ Book a strategy call](https://webinar.sannidhyabaweja.com/vsl-lp-ind)
 
 ---
 
